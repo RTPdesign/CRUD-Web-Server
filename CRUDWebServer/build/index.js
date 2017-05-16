@@ -1,10 +1,7 @@
 'use strict'
 
-<<<<<<< HEAD
 // import env from './env';
-=======
-import env from './env';
->>>>>>> origin/master
+
 import express from 'express';
 import handlebars from 'express-handlebars';
 import http from 'http';
