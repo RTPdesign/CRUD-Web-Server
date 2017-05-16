@@ -6,9 +6,6 @@
 // import {updateTask} from '../services/userService';
 // import {removeTask} from '../services/userService';
 
-'use strict';
-
-
 import {removeTask, updateTask, findTask, createTask} from '../services/taskService';
 
 export default (app) => {
