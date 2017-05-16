@@ -5,11 +5,11 @@ import Task from '../models/Task';
 export let createTask = (task, next) => {
     Task.create(task, next);
 };
-
 // Creates a User
 export let createUser = (user, next) => {
     User.create(user, next);
 };
+
 
 //? export let findTask = (err, task) => {
 //     Task.find(err, task);
